@@ -1,0 +1,79 @@
+.heading {
+    font-size: 2rem;
+    color: #FF046F;
+    text-align: center;
+    padding: 0 1rem;
+    padding-top: 2rem;
+    letter-spacing: .2rem;
+    font-weight: 500;
+}
+
+.title {
+    padding: 0 1rem;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 400;
+    color: #aaa;
+}
+
+.contact {
+    background: #333;
+}
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.contact .row .image img {
+    width: 50vw;
+    height: 70vh;
+}
+
+.contact .row .form-container {
+    width: 50%;
+    padding-right: 4rem;
+}
+
+.contact .row .form-container input,
+textarea {
+    height: 2.5rem;
+    width: 100%;
+    background: #fff;
+    border: none;
+    border-radius: 5rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    color: #FF046F;
+    font-size: 1.7rem;
+    transition: .2s linear;
+}
+
+.contact .row .form-container input:focus,
+textarea:focus {
+    border: .2rem solid FF046F;
+}
+
+.contact .row .form-container textarea {
+    height: 6rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input[type="submit"] {
+    width: 17rem;
+    background: #FF046F;
+    color: #fff;
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.contact .row .form-container input[type="submit"]:hover {
+    background: none;
+    color: #FF046F;
+    border: .2rem solid #FF046F;
+}
