@@ -28,13 +28,12 @@
 }
 
 .contact .row .image img {
-    width: 50vw;
+    width: 50%;
     height: 70vh;
 }
 
 .contact .row .form-container {
     width: 50%;
-    padding-right: 4rem;
 }
 
 .contact .row .form-container input,
@@ -64,7 +63,8 @@ textarea:focus {
 }
 
 .contact .row .form-container input[type="submit"] {
-    width: 17rem;
+    width: 10rem;
+    height: 10vh;
     background: #FF046F;
     color: #fff;
     cursor: pointer;
